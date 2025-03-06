@@ -1,0 +1,60 @@
+/* Кнопка добавления задачи */
+.add-task-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.add-task-btn:hover {
+    background: #0056b3;
+}
+
+/* Кнопки управления задачами */
+.edit-btn {
+    background: #ffc107;
+    color: black;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
+.complete-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.complete-btn:hover {
+    background: #218838;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}

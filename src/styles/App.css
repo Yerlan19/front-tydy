@@ -1,0 +1,121 @@
+/* Светлая тема (по умолчанию) */
+.light-theme {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+/* Темная тема */
+.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+/* Основной контейнер */
+.app {
+  background: transparent !important;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Стили заголовка */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Стили кнопок */
+button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Кнопка смены темы */
+.theme-btn {
+  margin-bottom: 15px;
+}
+
+/* Кнопки в светлой теме */
+.light-theme button {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Кнопки в темной теме */
+.dark-theme button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+/* Карточка задачи */
+.task-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Карточка задачи в темной теме */
+.dark-theme .task-card {
+  background: #222;
+  color: white;
+}
+
+/* Контейнер для фильтров и поиска */
+.filter-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Поля ввода и select */
+.search-input,
+.filter-select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Поля ввода и select в темной теме */
+.dark-theme .search-input,
+.dark-theme .filter-select {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+/* Кнопка добавления задачи */
+.add-task-btn {
+  background-color: #28a745;
+  color: white;
+  margin-top: 10px;
+}
+
+/* Кнопка добавления задачи в темной теме */
+.dark-theme .add-task-btn {
+  background-color: #1e7e34;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

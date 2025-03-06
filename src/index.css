@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+/* Контейнер приложения */
+.app {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Тёмная тема */
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+/* Заголовок */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Верхняя панель (поиск + фильтр + тема) */
+.top-panel {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Поле поиска */
+.search-bar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+body.dark .search-bar input {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+/* Фильтр */
+.filter-select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+body.dark .filter-select {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+/* Переключатель темы */
+.theme-toggle {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.theme-toggle:hover {
+  background-color: #0056b3;
+}
+
+/* Кнопка "Добавить задачу" */
+.add-task-btn {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-task-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Таймер */
+.pomodoro-timer {
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+body.dark .pomodoro-timer {
+  background: #2c2c2c;
+}
+
+/* Время */
+.timer-time {
+  font-size: 36px;
+  font-weight: bold;
+  color: red;
+  margin: 15px 0;
+}
+
+/* Кнопки таймера */
+.timer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.timer-buttons button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pause-btn {
+  background: green;
+  color: white;
+}
+
+.switch-btn {
+  background: red;
+  color: white;
+}
+
+.reset-btn {
+  background: blue;
+  color: white;
+}

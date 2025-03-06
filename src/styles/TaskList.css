@@ -1,0 +1,11 @@
+/* Автоматически увеличивать высоту */
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+/* Добавляем динамическое изменение высоты */
+.task-list > .task {
+    margin-bottom: 10px;
+}
